@@ -1,0 +1,43 @@
+.tree{
+    background-color:seagreen;
+    border-radius: 10px;
+    margin: 20% 0;
+}
+
+#face{
+    margin: 50% 0px 50% 10px;
+    max-width:100%;
+    height:auto;
+}
+#bio{
+    margin: 11% 0px 0 0px;
+    max-width:100%;
+    height:auto;
+}
+
+body{
+    background-color: slategray;
+}
+
+@media (max-width: 575px) {
+    #face{
+
+        margin: 0 auto;
+        max-width:100%;
+        height:auto;
+    }
+    #bio{
+        margin: 5% 0px 0 0px;
+        max-width:100%;
+        height:auto;
+    }
+    .tree{
+        background-color:seagreen;
+        border-radius: 10px;
+        margin: 20% 0;
+        padding: 10px;
+    }   
+        
+
+
+}
