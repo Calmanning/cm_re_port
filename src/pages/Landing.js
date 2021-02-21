@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Row, Container } from "../components/Grid";
 import "./style.css"
 
-function Landing() {
+const Landing = () => {
     return (
 
         <Container >
