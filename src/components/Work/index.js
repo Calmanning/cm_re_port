@@ -12,7 +12,7 @@ const index = ({ work }) => {
       <div className="content">
         <ul>
           <li>
-           <p>Plant care assistance and social sharing app.</p>
+           <p>{work.blurb}.</p>
           </li>
           <li>
             <strong><a href={work.site} target="_blank">Website</a></strong> 
