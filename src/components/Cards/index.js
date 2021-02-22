@@ -1,26 +1,24 @@
 import React from 'react'
 
-
-export function Card({ work }) {
+export function Card({ children }) {
     return (
-        <div>
-        {/* <div className="card">
-                   <img alt={work.name} src={work.image} />
+        <div className="card">
+                   <img alt={props.name} src={props.image} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>{work.name}</strong> 
+            <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Site:</strong> {work.site}
+            <strong>Occupation:</strong> {props.occupation}
           </li>
           <li>
-            <strong><a href={work.repo} target="_blank">GitHub Repo</a></strong>
+            <strong>Location:</strong> {props.location}
           </li>
         </ul>
-      </div>     */}
-      </div>
+      </div>    
+      
     )
 }
 
